@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test_URL</title>
+
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="content" align="center">
+    <h1>Gallery</h1>
+    {{range .UrlImgData}}
+        <div  id="gallery">
+            <figure class="photo">
+                <img class="img-polaroid" src="{{ .UrlImg }}"  >
+                   <figcaption style="color: {{ .Color}}; font-size: 40px;">
+                    {{ .Color }}
+                </figcaption>
+            </figure>
+        </div>
+    {{end}}
+</div>
+</body>
+</html>

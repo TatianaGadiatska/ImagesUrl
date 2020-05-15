@@ -1,0 +1,97 @@
+
+/* --------------------------------
+   General
+----------------------------------- */
+
+body {
+    background: #8e8ec4;
+    color: #444;
+    font: normal 1.2em Verdana,Arial,sans-serif;
+    height: 100%;
+    padding-bottom: 1px; /* force scrollbars */
+    padding-top: 64px;
+}
+
+small,.small {font-size: 0.9em;}
+
+a {
+    color: #EEC;
+    text-decoration: none;
+}
+a:hover {
+    color: #FFA;
+    text-decoration: underline;
+}
+
+p {padding: 0.2em 0 1.2em;}
+
+blockquote, code {
+    background: #4A4A4A;
+    border: 1px solid #333;
+    color: #BBB;
+    display: block;
+    margin-bottom: 12px;
+}
+code {
+    font: normal 0.9em Verdana,sans-serif;
+    line-height: 1.5em;
+    padding: 8px 14px;
+}
+
+
+/* --------------------------------
+   Headings, titles
+----------------------------------- */
+
+h1 {font: normal 2em Georgia,sans-serif;}
+h2 {font: normal 1.6em Georgia,sans-serif;}
+h3 {font: normal 1.4em Georgia,sans-serif;}
+h4 {font: bold 1em Georgia,sans-serif;}
+
+h1, h2, h3, h4 {margin-bottom: 5px;}
+
+
+
+/* --------------------------------
+   Site title
+----------------------------------- */
+
+#site_title {
+    background: #222;
+    padding: 12px 20px;
+}
+#site_title h1 	{
+    color: #EED;
+    font: normal 2em Georgia,sans-serif;
+    margin: 0 0 5px;
+}
+#site_title h2 {
+    color: #BFBFB6;
+    font: normal 1.1em sans-serif;
+    margin: 0;
+}
+
+
+/* --------------------------------
+   Floats
+----------------------------------- */
+
+.left {float: left;}
+.right {float: right;}
+.clear,.clearer {clear: both;}
+.clearer,.block {
+    display: block;
+    line-height: 0;
+    font-size: 0;
+}
+.clearer {height: 0;}
+
+
+/* Gallery */
+.gallery img{
+    margin:5px;
+    border:3px solid ;
+}
+a.photo:hover img{
+    border:3px solid #034F80;
+}
